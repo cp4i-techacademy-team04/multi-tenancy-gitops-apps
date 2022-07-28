@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: ace-es-demo-scram-secid
+  namespace: tools
+spec:
+  type: setdbparms
+  description: Credentials to connect using SCRAM to ES Demo Cluster
+  data: dHJ1c3RzdG9yZTo6dHJ1c3RzdG9yZVBhc3MgZHVtbXkgQTQ1V2pKSmlzY25uCmthZmthOjplc2RlbW9TZWNJZCBhY2UtdXNlciBXeHR4WktUZVd1RXoK
+  
